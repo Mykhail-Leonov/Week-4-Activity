@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heading</title>
+</head>
+<body>
+  <h1 id="myHeading">This is a testing of DOM</h1>
+  <button onclick="changeHeading()">Change</button>
+
+ <script>
+    function changeHeading() {
+      // Get the heading by its ID
+      let heading = document.getElementById("myHeading");
+
+      // Change style 
+      heading.style.textAlign = "center";
+      heading.style.fontSize = "40px";
+      heading.style.fontFamily = "Verdana";
+    }
+  </script>
+</body>
+</html>
